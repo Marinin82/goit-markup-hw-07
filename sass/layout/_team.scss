@@ -10,12 +10,14 @@
       }
   }
   .team__name {
+    font-family: 'Roboto';
     @include font(normal, 500, 16px, 19px, 0.03em, var(--header-text-color));
-      text-align: center;
+      text-align: center;  
       margin: 0;
       padding-bottom: 10px;
   }
   .team__occupation {
+    font-family: 'Roboto';
     @include font(normal, 400, 16px, 19px, 0.03em, var(--line-text-color));
       text-align: center;
       margin: 0 0 16px 0;

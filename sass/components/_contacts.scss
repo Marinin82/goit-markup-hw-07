@@ -2,6 +2,7 @@
     margin-left: auto;
 }
 .contacts__link {
+  font-family: 'Roboto';
   @include font(normal, 500, 14px, 16px, 0.02em, var(--line-text-color));
   text-decoration: none;
   @include flexible ();

@@ -1,5 +1,6 @@
 .section-header {
+    font-family: 'Roboto';
     @include font(normal, 700, 36px, 42px, 0.03em, var(--header-text-color));
-      text-align: center;
-      margin: 0 0 50px 0;
+    text-align: center;
+    margin: 0 0 50px 0;
     }

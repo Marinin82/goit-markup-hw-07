@@ -23,6 +23,7 @@ button {
 }
 
 .big-button {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -51,6 +52,7 @@ button {
 }
 
 .contacts__link {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -119,6 +121,7 @@ button {
 }
 
 .hero__slogan {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -142,21 +145,31 @@ button {
 }
 
 .logo {
+  font-family: "Raleway";
+  text-decoration: none;
+}
+.logo__active {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: 0;
-  text-decoration: none;
-}
-.logo__active {
   color: var(--accent-color);
 }
 .logo__black {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
   color: #000000;
 }
 .logo__white {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
@@ -207,6 +220,7 @@ button {
 }
 
 .modal__title {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -268,6 +282,7 @@ button {
 }
 
 .modal__label {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -292,6 +307,7 @@ button {
   border-color: var(--accent-color);
 }
 .modal__user-comment::placeholder {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -301,6 +317,7 @@ button {
 }
 
 .modal__user-policy {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -337,6 +354,7 @@ button {
 }
 
 .modal__user-policy_link {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -363,6 +381,7 @@ button {
 }
 
 .navigation__link {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -404,6 +423,12 @@ button {
 }
 
 .navigation__link_active {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 .navigation__link_active::after, .navigation__link_active:hover::after, .navigation__link_active:focus:after {
@@ -424,6 +449,7 @@ button {
 }
 
 .section-header {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -486,6 +512,7 @@ button {
   background-color: #E5E5E5;
 }
 .subscribe__input::placeholder {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -519,6 +546,7 @@ button {
 }
 
 .subscribe__button-text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -643,6 +671,7 @@ button {
 }
 
 .tiles-filter__button, .tiles-filter__button_active {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -706,6 +735,7 @@ button {
   height: 70px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background-color: rgba(47, 48, 58, 0.8);
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -735,6 +765,7 @@ button {
 }
 
 .features__header {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -746,6 +777,7 @@ button {
 }
 
 .features__text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -771,6 +803,7 @@ button {
 }
 
 .footer__address {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -785,6 +818,7 @@ button {
 }
 
 .footer__label {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -803,6 +837,7 @@ button {
 }
 
 .footer__contacts {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -874,17 +909,20 @@ button {
 }
 
 .team__name {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
+  text-align: center;
   margin: 0;
   padding-bottom: 10px;
 }
 
 .team__occupation {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

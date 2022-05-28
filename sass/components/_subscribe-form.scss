@@ -16,6 +16,7 @@
       background-color: #E5E5E5;
   }
   &::placeholder {
+    font-family: 'Roboto';
     @include font(normal, 400, 16px, 1.25, 0.03em, rgba(255, 255, 255, 0.6));
     padding-inline-start: 16px;
   }
@@ -42,6 +43,7 @@
     transform: translateY(-50%);   */
   }
   .subscribe__button-text {
+    font-family: 'Roboto';
     @include font(normal, 700, 16px, 1.88, 0.06em, #ffff);
     text-align: center;
     text-decoration: none;

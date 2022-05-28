@@ -41,6 +41,7 @@
     visibility: hidden;
 }
 .modal__title {
+    font-family: 'Roboto';
     @include font(normal, 700, 20px, 23px, 0.03em, var(--header-text-color));
     text-align: center;
     margin-bottom: 12px;
@@ -91,6 +92,7 @@
     fill: currentColor;
 }
 .modal__label {
+    font-family: 'Roboto';
     @include font(normal, 400, 12px, 14px, 0.01em, var(--line-text-color));
 }
 .modal__user-comment {
@@ -108,10 +110,12 @@
         border-color: var(--accent-color);
     }
     &::placeholder {
+        font-family: 'Roboto';
         @include font(normal, 400, 12px, 14px, 0.01em, rgba(117, 117, 117, 0.5));
     }
 }
 .modal__user-policy {
+    font-family: 'Roboto';
     @include font(normal, 400, 14px, 1.71, 0.03em, var(--line-text-color));
     display: flex;
     align-items: center;
@@ -140,6 +144,7 @@
     }
 }  
 .modal__user-policy_link {
+    font-family: 'Roboto';
     @include font(normal, 400, 14px, 1.71, 0.03em, var(--accent-color));
     text-decoration-line: underline;
     text-decoration-skip-ink: none;

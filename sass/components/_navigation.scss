@@ -8,6 +8,7 @@
     margin-right: 50px;
   }
   .navigation__link {
+    font-family: 'Roboto';
     @include font(normal, 500, 14px, 16px, 0.02em, var(--header-color));
     text-decoration: none;
     cursor: pointer;
@@ -43,7 +44,8 @@
     }
   }
   .navigation__link_active {
-      color: var(--accent-color);
+    font-family: 'Roboto';
+    @include font(normal, 500, 14px, 16px, 0.02em, var(--accent-color));
       &::after, &:hover::after, &:focus:after {
           content: '';
           position: absolute;
