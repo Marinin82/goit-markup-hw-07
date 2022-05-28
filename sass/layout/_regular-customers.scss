@@ -1,0 +1,34 @@
+.regular-customers__list {
+    padding-inline-start: 0;
+    margin: 0;
+}
+.regular-customers__item + .regular-customers__item {
+    margin-left: 30px;
+}
+.regular-customers__link {
+    width: 170px;
+    height: 92px;
+    @include flexible ();
+    background-color: #ffffff;
+    color: rgba(175, 177, 184, 1);
+    border: 1px solid rgba(175, 177, 184, 1);
+    border-radius: 4px;
+    &:hover {
+        color: var(--accent-color);
+        background-color: #FFFFFF;
+        border: 1px solid var(--accent-color);
+    }
+    &:focus {
+        background-color: #FFFFFF;
+        color: var(--accent-color);
+    }
+    .regular-customers__item:hover & {
+        color: var(--accent-color);
+    }
+}
+.regular-customers__icon {
+    fill: currentColor;
+    transition: color var(--timing-function),
+                background-color var(--timing-function), 
+                border var(--timing-function);
+}

@@ -1,0 +1,15 @@
+.logo {
+  @include font(normal, 700, 26px, 30px, 0.03em, 0);
+    text-decoration: none;
+    &__active {
+      color: var(--accent-color);
+    }
+    &__black {
+      color: #000000;
+    }
+    &__white {
+      color: #ffffff;
+    }
+  }
+
+

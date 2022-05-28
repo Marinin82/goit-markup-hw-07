@@ -1,0 +1,21 @@
+@mixin flexible () {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+@mixin flex-centered () {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+@mixin font($fst, $fw, $fs, $lh, $ls, $clr) {
+  font-style: $fst;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  color: $clr;
+}

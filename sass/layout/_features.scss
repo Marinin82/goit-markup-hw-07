@@ -1,0 +1,21 @@
+.features__block {
+    max-width: 270px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  .features__icon-background {
+      width: 270px;
+      height: 120px;
+      background-color: rgba(245, 244, 250, 1);
+      @include flexible ();
+  }
+  .features__header {
+    @include font(normal, 700, 14px, 16px, 0.03em, var(--header-text-color));
+    text-transform: uppercase;
+    margin: 30px 0 10px 0;
+  }
+  .features__text {
+    @include font(normal, 400, 14px, 1.71, 0.03em, var(--line-text-color));
+    margin: 0px;
+  }
