@@ -11,6 +11,7 @@
   }
   .team__name {
     @include font(normal, 500, 16px, 19px, 0.03em, var(--header-text-color));
+      text-align: center;
       margin: 0;
       padding-bottom: 10px;
   }
